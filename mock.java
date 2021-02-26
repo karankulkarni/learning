@@ -1,4 +1,7 @@
 //This is another program
+//This is sample pra program
+
+>>>>>>> feature
 import java.util.*;
 public class mock {
 
