@@ -1,3 +1,5 @@
+//This is sample pra program
+
 import java.util.*;
 public class mock {
 
@@ -26,10 +28,10 @@ public class mock {
 		if(maxi != null) {
 			System.out.println(maxi.getEmpId()+"#"+maxi.getDeptName()+"#"+maxi.getSalary());
 		}
-		
+
 
 	}
-	
+
 	public static int findempsWithSalRange(Employee[] emps,double minSal,double maxSal){
 	   //method logic
 		int count = 0;
@@ -66,7 +68,7 @@ class Employee{
 	String deptName;
 	double salary;
 	public Employee(int empId, String empName, int mgrId, String deptName, double salary) {
-		
+
 		this.empId = empId;
 		this.empName = empName;
 		this.mgrId = mgrId;
@@ -103,6 +105,6 @@ class Employee{
 	public void setSalary(double salary) {
 		this.salary = salary;
 	}
-	
-	
+
+
 }
