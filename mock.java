@@ -1,5 +1,5 @@
 //This is sample pra program
-
+//LOL
 import java.util.*;
 public class mock {
 
